@@ -52,4 +52,7 @@ ie.gmit.sw.ai directory contains the source code for the game.
 ### Runing this project
 1. Download this repo
 2. To run the game open a command prompt, navigate to the directory where the game.jar file is and enter the command
-java –cp ./game.jar ie.gmit.sw.ai.GameRunner to launch the game.
+```cmd
+java –cp ./game.jar;./jcommon-1.0.23.jar;./jFuzzyLogic.jar ie.gmit.sw.ai.GameRunner
+```
+to launch the game.
